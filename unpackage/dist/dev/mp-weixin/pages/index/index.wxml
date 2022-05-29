@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/logo.png"></image><view class="topBar"></view><view class="swiperBar"></view><view class="mainPart"></view><view class="text-area"><text class="title">{{title}}</text></view></view>
