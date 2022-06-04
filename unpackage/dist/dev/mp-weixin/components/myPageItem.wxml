@@ -1,0 +1,1 @@
+<view><view class="container"><view class="greyRect"><image src="{{icon}}" mode></image></view>{{''+content+''}}</view></view>
