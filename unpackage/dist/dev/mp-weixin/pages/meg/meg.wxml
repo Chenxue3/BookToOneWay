@@ -1,1 +1,1 @@
-<view>消息中心</view>
+<view class="content"><view class="iconfont icon-youxiang" style="font-size:300rpx;margin-top:300rpx;"></view><view class="text">空空如也~</view><button style="font-size:20rpx;margin-top:50rpx;">联系客服</button></view>

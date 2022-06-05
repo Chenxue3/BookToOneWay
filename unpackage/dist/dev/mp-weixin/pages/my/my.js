@@ -130,7 +130,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var myPageitem = function myPageitem() {__webpack_require__.e(/*! require.ensure | components/myPageItem */ "components/myPageItem").then((function () {return resolve(__webpack_require__(/*! ../../components/myPageItem.vue */ 51));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var myPageitem = function myPageitem() {__webpack_require__.e(/*! require.ensure | components/myPageItem */ "components/myPageItem").then((function () {return resolve(__webpack_require__(/*! ../../components/myPageItem.vue */ 52));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};
 
 
 
@@ -210,23 +210,6 @@ var _default = {
     // 			console.log("处理头像失败！")
     // 		}
     // 	})
-    // },
-    /**
-     * 获取用户信息
-     */
-    // getUserInfo() {
-    // 	var res = this.getGlobalUserInfo();
-    // 	console.log(res);
-    // 	if (res.nickName != null) {
-    // 		this.isLogin = true;
-    // 		this.nickName = res.nickName
-    // 		this.userImg = res.avatarUrl
-    // 		this.handleNetImg(this.userImg)
-    // 		this.isVip = res.isVip
-    // 		var orderInfo = this.getGlobalOrderDraftInfo()
-    // 		console.log(orderInfo)
-    // 		this.isClerk = res.isClerk
-    // 	}
     // },
   } };exports.default = _default;
 

@@ -13,7 +13,7 @@ Todo:！！注意处理了用户头像！之后要配置合法域名！
 			</view>
 			<view class="userInfo">
 				<view class="nickName">
-					{{nickName}}
+					测试用户
 					<view class="vipTag" v-show="isVip">
 						VIP
 					</view>
@@ -79,23 +79,7 @@ Todo:！！注意处理了用户头像！之后要配置合法域名！
 			// 		}
 			// 	})
 			// },
-			/**
-			 * 获取用户信息
-			 */
-			// getUserInfo() {
-			// 	var res = this.getGlobalUserInfo();
-			// 	console.log(res);
-			// 	if (res.nickName != null) {
-			// 		this.isLogin = true;
-			// 		this.nickName = res.nickName
-			// 		this.userImg = res.avatarUrl
-			// 		this.handleNetImg(this.userImg)
-			// 		this.isVip = res.isVip
-			// 		var orderInfo = this.getGlobalOrderDraftInfo()
-			// 		console.log(orderInfo)
-			// 		this.isClerk = res.isClerk
-			// 	}
-			// },
+			
 		}
 	}
 </script>
@@ -111,7 +95,7 @@ Todo:！！注意处理了用户头像！之后要配置合法域名！
 		margin-bottom: 10upx;
 		padding-top: 40upx;
 		position: relative;
-		background-color: rgb(178, 239, 193);
+		background-image: linear-gradient(#08b263, #a1e0b1,#F0F0F0);
 	}
 
 	.topBox>.userImg {

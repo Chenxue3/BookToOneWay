@@ -16,6 +16,9 @@
 .icon-liebiaodaohang_gongyi:before {
   content: "\e639";
 }
+.icon--con:before{
+	content: "\e68b";
+}
 
 .icon-youxiang:before {
   content: "\e6a1";
