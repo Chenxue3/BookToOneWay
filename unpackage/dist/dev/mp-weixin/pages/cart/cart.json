@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "购物车",
+  "navigationBarTitleText": "书籍选择",
   "enablePullDownRefresh": false,
   "usingComponents": {
     "shopcart": "/components/shopcart",

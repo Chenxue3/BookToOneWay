@@ -32,9 +32,9 @@
       },
       {
         "pagePath": "pages/cart/cart",
-        "iconPath": "static/tab-cart.png",
-        "selectedIconPath": "static/tab-cart-current.png",
-        "text": "购物车"
+        "iconPath": "static/tab-star.png",
+        "selectedIconPath": "static/tab-star-current.png",
+        "text": "书单收藏"
       },
       {
         "pagePath": "pages/my/my",
@@ -44,6 +44,5 @@
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }

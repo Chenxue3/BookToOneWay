@@ -28,12 +28,12 @@ Todo:！！注意处理了用户头像！之后要配置合法域名！
 		</view>
 		<view class="main">
 			<view>
-				<myPageitem content="积分商城" :icon="icon[0]"></myPageitem>
+				<myPageitem content="积分商城" icon="iconfont icon-wodejifen"></myPageitem>
 			</view>
 			<view>
-				<myPageitem content="会员中心" :icon="icon[0]"></myPageitem>
+				<myPageitem content="会员中心" icon="iconfont icon-huiyuan"></myPageitem>
 				<view>
-					<myPageitem content="关于" :icon="icon[4]"></myPageitem>
+					<myPageitem content="关于" icon="iconfont icon-guanyu"></myPageitem>
 				</view>
 
 			</view>
@@ -46,12 +46,7 @@ Todo:！！注意处理了用户头像！之后要配置合法域名！
 	export default {
 		data() {
 			return {
-				icon: ["../static/icon/text.png",
-					"../static/icon/recevier.png",
-					"../static/icon/sender.png",
-					"../static/icon/message.png",
-					"../static/icon/book.png",
-				],
+				userImageLocal:"../../static/tab-my.png"
 			}
 		},
 		onShow() {},

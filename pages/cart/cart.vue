@@ -25,7 +25,8 @@
 							<!-- <text style="font-size: 13px;margin: 2px 0 4px;">月售{{food.sellCount}}</text> -->
 							<!-- 加减 -->
 							<view class="food-btm">
-								<text class="food-price">￥{{food.price}}</text>
+								<!-- <text class="food-price">￥{{food.price}}</text> -->
+								<!-- <text>添加收藏</text> -->
 								<cartcontrol :food="food" @add="addCart" @dec="decreaseCart"></cartcontrol>
 							</view>
 						</view>

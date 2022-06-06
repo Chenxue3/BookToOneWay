@@ -8,6 +8,7 @@
 		<text style="color: #555555; font-size: 24upx;" >{{goodInfo.count}}</text>
 		</view>
 		<view>
+			<text>预计购买价格：</text>
 			<text style="font-weight: bold; font-size: 28upx;">￥{{goodInfo.price}}\n</text>
 		</view>
 	</view>

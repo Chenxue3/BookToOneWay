@@ -1,23 +1,55 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3445707 */
   /* Color fonts */
-  src: 
-       url('./static/iconfont.ttf')
+   src: url('./static/iconfont.ttf')
 }
 
 .iconfont {
   font-family: "iconfont" !important;
-  font-size: 10px;
+  font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-huiyuan:before {
+  content: "\e60e";
+}
+
+.icon-shoucang:before {
+  content: "\e681";
+}
+
+.icon-wode:before {
+  content: "\e636";
+}
+
+.icon-shuji:before {
+  content: "\e6bf";
+}
+
+.icon-wodejifen:before {
+  content: "\e67e";
+}
+
+.icon-jurassic_entry-basicdata:before {
+  content: "\e6f4";
+}
+
+.icon-guanyu:before {
+  content: "\e60d";
+}
+
+.icon-shuji1:before {
+  content: "\100c9";
+}
+
+.icon-kefu:before {
+  content: "\e68b";
+}
+
 .icon-liebiaodaohang_gongyi:before {
   content: "\e639";
-}
-.icon--con:before{
-	content: "\e68b";
 }
 
 .icon-youxiang:before {

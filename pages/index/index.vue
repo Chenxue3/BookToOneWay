@@ -22,19 +22,19 @@
 			<view class="booksSell">
 				<view class="titleItem" style="background-color: rgb(184, 231, 187);">
 					<text class="iconfont icon-ershouwupin" style="font-size: 40upx; box-sizing: border-box; margin: 10upx;"></text>
-					书籍买卖
+					书籍选择
 				</view>
 				<view class="options">
 					<view class="optionPart">
-						<view class="iconfont icon-remai" style="font-size: 120upx;"></view>
+						<view class="iconfont icon-jurassic_entry-basicdata" style="font-size: 120upx;"></view>
 						<button type="default" class="option" @click="funcTbc()">
-							我要卖书
+							书籍录入
 						</button>
 					</view>
 					<view class="optionPart">
-						<view class="iconfont icon-goumai" style="font-size: 120upx;"></view>
+						<view class="iconfont icon-shuji" style="font-size: 120upx;"></view>
 
-						<button type="default" class="option" @click="goCart">我要买书</button>
+						<button type="default" class="option" @click="goCart">书籍选择</button>
 					</view>
 				</view>
 			</view>

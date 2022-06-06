@@ -11,7 +11,10 @@ Todo:传入“content”，对应在这个条条内显示对应的内容
 	<view class="">
 		<view class="container">
 			<view class="greyRect">
-				<image :src="icon" mode=""></image>
+				<view :class="icon" style="font-size: 40upx; margin-left: 5upx; margin-right: 10upx;">
+					
+				</view>
+				<!-- <image :src="icon" mode=""></image> -->
 			</view>
 			{{content}}
 		</view>

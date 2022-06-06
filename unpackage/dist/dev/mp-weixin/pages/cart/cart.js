@@ -173,6 +173,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var shopcart = function shopcart() {__webpack_require__.e(/*! require.ensure | components/shopcart */ "components/shopcart").then((function () {return resolve(__webpack_require__(/*! @/components/shopcart.vue */ 59));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var cartcontrol = function cartcontrol() {__webpack_require__.e(/*! require.ensure | components/cartcontrol */ "components/cartcontrol").then((function () {return resolve(__webpack_require__(/*! @/components/cartcontrol.vue */ 66));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 {

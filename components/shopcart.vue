@@ -5,15 +5,18 @@
 			<view class="carIcon">
 				<view class="iconBox" :class="getAllCount ? 'active' : '' ">
 					<text class="allcount" v-if="getAllCount">{{getAllCount}}</text>
-					<image src="/static/cart.png" mode="" class="img"></image>
+					<view class="iconfont icon-shoucang" style="font-size: 50upx; margin-left: 50%; margin-top: 50%; transform: translateX(-50%) translateY(-50%)">
+						
+					</view>
+					<!-- <image src="/static/cart.png" mode="" class="img"></image> -->
 				</view>
 			</view>
 			<view class="middle">
-				<text class="price" :class="getAllCount ?　'active': ''">￥{{getAllPrice}}</text>
-				<text></text>
+				<!-- <text class="price" :class="getAllCount ?　'active': ''">￥{{getAllPrice}}</text> -->
+				<text>已收藏书籍：{{getAllCount}}本</text>
 			</view>
 			<view class="BtnRight" @click="makeSure">
-				选好了
+				查看收藏
 			</view>
 			
 		</view>
@@ -21,7 +24,7 @@
 		<view class="cartList" v-show="isShowList && getList.length">
 			<scroll-view scroll-y style="max-height: 400px;">
 				<view class="title">
-					<text>购物车</text>
+					<text>书单</text>
 					<view class="clear" @click="delShopcart">
 						清空
 					</view>

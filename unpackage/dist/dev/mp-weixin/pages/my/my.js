@@ -178,12 +178,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 var _default = {
   data: function data() {
     return {
-      icon: ["../static/icon/text.png",
-      "../static/icon/recevier.png",
-      "../static/icon/sender.png",
-      "../static/icon/message.png",
-      "../static/icon/book.png"] };
-
+      userImageLocal: "../../static/tab-my.png" };
 
   },
   onShow: function onShow() {},
